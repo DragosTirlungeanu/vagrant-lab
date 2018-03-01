@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/ubuntu/db":{"guestpath":"/home/ubuntu/db","hostpath":"/Users/tech-a46/Desktop/dev-ops/labs/intro-lab1/environment/db","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/tech-a46/Desktop/dev-ops/labs/intro-lab1","disabled":false,"__vagrantfile":true}}}
