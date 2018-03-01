@@ -1,0 +1,90 @@
+# ~VAGRANT~
+
+## Install process
+
+### Terminal commands
+
+~ cd Desktop/dev-ops/intro
+
+➜  intro vagrant up
+
+➜  intro vagrant provision
+
+➜  intro vagrant up
+
+➜  intro vagrant init ubuntu/xenial64
+
+➜  intro ls
+
+➜  intro vagrant ssh
+
+vagrant@ubuntu-xenial:~$ sudo apt-get update -y
+
+vagrant@ubuntu-xenial:~$ sudo apt-get install nginx -y
+
+vagrant@ubuntu-xenial:~$ curl localhost:80
+
+vagrant@ubuntu-xenial:~$ exit
+
+➜  intro vagrant reload
+
+➜  intro cat /etc/hosts
+
+➜  intro vagrant plugin install vagrant-hostsupdater
+
+➜  intro cat /etc/hosts
+
+➜  intro vagrant destroy
+
+*copy any environments/apps or folders into working directory*
+
+➜  intro vagrant up
+
+➜  intro vagrant ssh
+
+vagrant@ubuntu-xenial:~$ sudo apt-get update -y
+
+vagrant@ubuntu-xenial:~$ sudo apt-get install nginx -y
+
+vagrant@ubuntu-xenial:~$ exit
+
+➜  intro git init
+
+➜  intro git:(master) ✗ git add .
+
+➜  intro git:(master) ✗ git commit -m "first commit"
+
+➜  intro git:(master) git remote add origin git@github.com:DragosTirlungeanu/Vagrant-intro.git
+
+➜  intro git:(master) git push -u origin master
+
+➜  intro git:(master) vagrant reload
+
+➜  intro git:(master) ✗ vagrant ssh
+
+vagrant@ubuntu-xenial:~$ cd /home/ubuntu/app/
+
+vagrant@ubuntu-xenial:/home/ubuntu/app$ ls
+
+vagrant@ubuntu-xenial:/home/ubuntu/app$ exit
+
+➜  intro git:(master) ✗ cd environment/spec-tests
+
+➜  spec-tests git:(master) ✗ bundle
+
+➜  spec-tests git:(master) ✗ rake spec
+
+➜  app git:(master) ✗ touch provision.sh
+
+➜  app git:(master) ✗ cd ...
+
+➜  intro git:(master) ✗ vagrant destroy
+
+➜  intro git:(master) ✗ cd app
+
+➜  app git:(master) ✗ ls
+
+README.md    node_modules seeds
+app.js       package.json test
+models       provision.sh views
+modules      public
